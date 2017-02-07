@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/accountinfo"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Account Info"/>
+
+    <TextView
+        android:text="First Name"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/first" />
+
+    <TextView
+        android:text="Second Name"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/last" />
+    <TextView
+        android:text="Phone"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/phone" />
+
+    <TextView
+        android:text="Address"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/address" />
+
+    <TextView
+        android:id="@+id/orderinfo"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Order Info"/>
+    <TextView
+        android:id="@+id/orderid"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Id"/>
+    <TextView
+        android:id="@+id/employeeid"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee Id"/>
+    <TextView
+    android:id="@+id/total"
+    android:textColor="#000"
+    android:textSize="22sp"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Total"/>
+
+    <TextView
+        android:id="@+id/created_date"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created Date"/>
+
+    <TextView
+        android:id="@+id/payment_type"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Type"/>
+
+</LinearLayout>

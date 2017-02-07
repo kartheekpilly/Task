@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kartheek_sample.SecondFragment">
+
+   <ListView
+       android:id="@+id/orderslist"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/bgcolor"
+       android:clickable="true"
+       android:divider="@drawable/divider"
+       android:dividerHeight="0px"
+       android:nestedScrollingEnabled="true">
+   </ListView>
+
+</FrameLayout>
